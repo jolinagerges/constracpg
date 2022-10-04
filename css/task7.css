@@ -1,0 +1,172 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline-style: none;
+  font-family: sans-serif;
+}
+
+.container {
+  margin-top: 0px;
+  padding: 0px 130px;
+}
+
+/* header*/
+
+header {
+  background-image: url(../Images/banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.back {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100vh;
+}
+
+.head1 {
+  background-color: RGB(255, 203, 15);
+  width: 100%;
+  height: auto;
+}
+
+.head1 ul i {
+  color: black;
+  margin: 0px 6px;
+}
+
+.head2 {
+  background-color: RGB(34, 37, 51);
+  width: 100%;
+  height: auto;
+  color: white;
+}
+
+.head2 ul a {
+  text-decoration: none;
+  color: white;
+  margin: 0px 6px;
+}
+
+ul > a:hover {
+  color: RGB(255, 203, 15);
+}
+i {
+  color: RGB(255, 203, 15);
+}
+.menu1 {
+  padding: 1.2% 0%;
+}
+.head3 {
+  width: 100%;
+  display: block;
+  text-align: center;
+  color: white;
+  padding: 90px 130px;
+}
+.head3 h3 {
+  margin-bottom: 2%;
+}
+.head3 h1 {
+  font-size: 63px;
+}
+
+.head3 .btn {
+  margin-top: 4%;
+  margin-bottom: 10%;
+}
+.btn > button {
+  width: 130px;
+  height: 30px;
+  margin-left: 5px;
+  background-color: black;
+  border: RGB(255, 203, 15) solid thin;
+  color: RGB(255, 203, 15);
+}
+.head3 button:hover {
+  color: white;
+}
+
+/* common */
+
+label > i {
+  display: none;
+  font-size: 19 px;
+}
+
+.nav {
+  padding: 1% 0%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/*section 1 */
+.sec1 {
+  background-color: white;
+}
+.sec-1 {
+  display: flex;
+  justify-content: space-between;
+}
+aside h1 {
+  margin-top: 17%;
+  font-size: 40px;
+}
+aside p {
+  color: rgba(0, 0, 0, 0.7);
+  margin-top: 20px;
+}
+aside button {
+  font-size: 17px;
+  color: white;
+  background-color: RGB(255, 203, 15);
+  border: none;
+  border-radius: 10px;
+  width: 100px;
+  height: 40px;
+  margin: 10% 30%;
+}
+
+/* section 2 */
+
+.sec2 {
+  background-image: url(../Images/bg4.jpg);
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  color: white;
+  text-align: center;
+}
+article > h1 {
+  padding-top: 8%;
+  padding-bottom: 1%;
+  font-size: 35px;
+  color: RGB(255, 203, 15);
+}
+.fig {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 7%;
+}
+.fig > figure {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: auto;
+  width: 22%;
+  padding: 2%;
+  border: none;
+  border-radius: 10%;
+}
+figure > i {
+  font-size: 55px;
+  color: black;
+  padding: 30px 30px;
+  background-color: RGB(255, 203, 15);
+  border: none;
+  border-radius: 50%;
+  margin-top: -50%;
+  margin-bottom: 5%;
+}
